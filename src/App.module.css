@@ -1,6 +1,18 @@
 .main {
-  margin: 2em;
+  margin: 4em;
   background-color: #BEF0CB;
   width: auto;
   height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1em;
+  justify-items: center;
+  align-items: center;
+  row-gap: 1em;
+  padding: 3em;
+}
+
+img {
+  width: 200px;
+  height: 100px;
 }
